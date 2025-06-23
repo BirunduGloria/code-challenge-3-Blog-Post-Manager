@@ -1,0 +1,129 @@
+/* Basic page and body setup */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Main container layout */
+.container {
+  display: flex;
+  max-width: 900px;
+  margin: 1rem auto;
+  gap: 1rem;
+}
+
+/* Posts list and detail sections */
+#posts-section,
+#post-detail {
+  flex: 1;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Each post item in the list */
+.post-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+.post-item:hover {
+  background: #eef;
+}
+
+/* images in the list */
+.post-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Styling for detail image */
+#post-detail img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+}
+
+/* New post form section */
+.new-post-section {
+  max-width: 900px;
+  margin: 1rem auto;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Form layout */
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form textarea {
+  resize: vertical;
+}
+form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #0056b3;
+}
+#logout-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#logout-btn.hidden {
+  display: none;
+}
+
+
+/* Edit form inside post-detail */
+#edit-post-form {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #f9f9f9;
+}
+
+/* Hideable elements */
+.hidden {
+  display: none;
+}

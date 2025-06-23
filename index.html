@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Post Manager</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My Blog Post Manager</h1>
+  </header>
+
+  <main class="container">
+    <!-- Posts List -->
+    <section id="posts-section">
+      <h2>All Posts</h2>
+      <div id="post-list"></div>
+    </section>
+
+    <!-- Post Details, Edit & Delete UI -->
+    <section id="post-detail">
+      <h2>Post Details</h2>
+      <p>Select a post to view its details.</p>
+    </section>
+  </main>
+
+  <!-- Form to Add New Posts -->
+  <section class="new-post-section">
+    <h2>Add a New Post</h2>
+    <form id="new-post-form">
+      <label>Title:
+        <input type="text" name="title" required />
+      </label>
+      <label>Author:
+        <input type="text" name="author" required />
+      </label>
+      <label>Content:
+        <textarea name="content" rows="4" required></textarea>
+      </label>
+      <label>Image URL (optional):
+        <input type="text" name="image" />
+      </label>
+      <button type="submit">Add Post</button>
+    </form>
+  </section>
+  <!-- Login Form -->
+<section id="login-section">
+  <h2>Login</h2>
+  <form id="login-form">
+    <label>Username:
+      <input type="text" name="username" required />
+    </label>
+    <label>Password:
+      <input type="password" name="password" required />
+    </label>
+    <button type="submit">Login</button>
+  </form>
+</section>
+
+<!-- Register Form -->
+<section id="register-section">
+  <h2>Register</h2>
+  <form id="register-form">
+    <label>Username:
+      <input type="text" name="username" required />
+    </label>
+    <label>Password:
+      <input type="password" name="password" required />
+    </label>
+    <button type="submit">Register</button>
+  </form>
+</section>
+
+<!-- Logout Button -->
+<button id="logout-btn" class="hidden">Logout</button>
+
+  
+
+  <script src="src/index.js"></script>
+</body>
+</html>

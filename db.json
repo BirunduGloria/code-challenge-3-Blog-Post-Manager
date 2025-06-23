@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "title": "Building a Brand",
+      "author": "GLORIA",
+      "image": "https://cdn.pixabay.com/photo/2015/11/06/13/25/brand-1027862_1280.jpg",
+      "content": "Ways to build a brand and not a business.Must do!",
+      "id": 4
+    },
+    {
+      "title": "Lessons after 21",
+      "author": "Gloria",
+      "image": "https://cdn.pixabay.com/photo/2024/05/21/10/28/buddhism-8777516_1280.jpg",
+      "content": "Your mind is powerful and chasing your passion is a must",
+      "id": 5
+    },
+    {
+      "title": "Birthdays",
+      "content": "decor, fffgghg",
+      "author": "Gloria",
+      "image": "https://cdn.pixabay.com/photo/2023/01/18/12/23/birthday-7726660_1280.jpg",
+      "id": 6
+    }
+  ]
+}
